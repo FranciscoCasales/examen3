@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: mx.com.axity.services.service.becaServiceTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.137 sec

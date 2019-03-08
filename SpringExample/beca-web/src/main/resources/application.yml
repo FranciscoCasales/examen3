@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://192.168.183.1:5469/dbexamen
+    username: postgres
+    password: axity2019
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    show-sql: true
+  application:
+    name: beca-service
+  profiles:
+    active: dev
+
+server:
+  port: 9091
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://gatewayservice:8000/eureka
+  instance:
+    leaseRenewalIntervalInSeconds: 5   
+    preferIpAddress: true
